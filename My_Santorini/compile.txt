@@ -1,0 +1,1 @@
+gcc -g -fsanitize=undefined,address,bounds-strict,signed-integer-overflow,float-divide-by-zero,leak,integer-divide-by-zero,null,bool,enum -W -Wall -Wconversion santorini.c -o santorini 
